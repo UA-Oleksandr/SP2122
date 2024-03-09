@@ -1,2 +1,2 @@
-# SP2122
+# PYLEARNING
 Python learning
