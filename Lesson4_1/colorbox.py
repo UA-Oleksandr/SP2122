@@ -4,7 +4,7 @@ class ColorBox(Box, Color):
 
     def __init__(self, heights:float, width:float, colorValue:str):
         super().__init__(heights, width)
-        Color.__init__(colorValue)
+        Color.__init__(self, colorValue)
 
     def __str__(self):
         return (f"Width: {self.Width}"
